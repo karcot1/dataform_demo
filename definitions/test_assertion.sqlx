@@ -1,0 +1,5 @@
+config {
+    type: "assertion"
+}
+
+select test from ${ref("second_view")} where 1=1
